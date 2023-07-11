@@ -11,9 +11,62 @@
   <body>
     <div class="flex justify-center items-center flex-col">
       <div class="text-3xl mt-10 font-semibold">GET IN TOUCH</div>
-      <div class="items-center flex justify-center font-serif text-sm flex-col py-3 text-gray-400">
-        <p class="my-0">Have any questions or suggestions?Drop </p> 
-        <p> us a message.</p>
+
+      <div
+        class="items-center flex justify-center font-serif text-sm flex-col py-3 text-gray-400"
+      >
+        <p class="my-0">Have any questions or suggestions?Drop</p>
+        <p>us a message.</p>
+      </div>
+
+      <div class="w-full font-bold">
+        <form action="">
+          <div class="w-10/12 ml-8 my-5 flex flex-col justify-center">
+            <label for="Name"> Name </label>
+            <input
+              class="font-thin w-full border rounded-md border-gray-300 focus:outline-none focus:border-violet-500 focus:ring-violet-500"
+              type="text"
+              id="Name"
+            />
+          </div>
+          <div class="w-10/12 ml-8 my-5 flex flex-col justify-center">
+            <label for="email"> Email </label>
+            <input
+              class="font-thin border rounded-md border-gray-300 focus:outline-none focus:border-violet-500 focus:ring-violet-500"
+              type="email"
+              id="email"
+            />
+          </div>
+          <div class="w-10/12 ml-8 my-5 flex flex-col justify-center">
+            <label for="subject"> Subject </label>
+            <input
+              class="font-thin border rounded-md border-gray-300 focus:outline-none focus:border-violet-500 focus:ring-violet-500"
+              type="text"
+              id="subject"
+            />
+          </div>
+          <div class="w-10/12 ml-8 my-5 flex flex-col justify-center">
+            <label for="number"> Contact Number </label>
+            <input
+              class="font-thin border rounded-md border-gray-300 focus:outline-none focus:border-violet-500 focus:ring-violet-500"
+              type="number"
+              id="number"
+              placeholder="your phone number here"
+            />
+          </div>
+          <div class="w-10/12 ml-8 my-5 flex flex-col justify-center">
+            <label for="box"> Describe your issue </label>
+            <textarea
+              class="font-thin border rounded-md border-gray-300 focus:outline-none focus:border-violet-500 focus:ring-violet-500"
+              id="box"
+              placeholder="Describe your issue here in detail...."
+            >
+            </textarea>
+          </div>
+        </form>
+        <div>
+            <button class="border text-center flex justify-center items-center rounded-md bg-violet-700 w-20 h-10 ml-8 text-white text-sm cursor-pointer hover:bg-white hover:text-violet-700 ">Submit</button>
+        </div>
       </div>
     </div>
   </body>
